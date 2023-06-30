@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="../js/herbie.js" defer></script>
+    <title>Carros</title>
+    </head>
+
+    <body>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-9">
+            <h1>Herbie: Controle de Serviços</h1>
+            <form>
+            <p>
+                <label for="inProduto">Serviço - Veículo:</label>
+                <input type="text" id="inServico" class="form-control" required autofocus>
+            </p>
+
+            <p>
+                <input type="submit" value="Adicionar Serviço" class="btn btn-primary">
+                <input type="button" value="Executar Serviço" id="btExecutar" class="btn btn-danger">
+            </p>
+
+            <h3> Serviços Pendentes:
+                <span></span>
+            </h3>
+            <p class="bg-danger text-white">&nbsp; Serviço em Execução:</p>
+            <h4></h4>
+            </form>
+        </div>
+        </div>
+    </div>
+    </body>
+
+    </html>

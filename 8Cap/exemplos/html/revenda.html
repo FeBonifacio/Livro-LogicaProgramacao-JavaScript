@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda</title>
+    <script src="../js/revenda.js" defer></script>
+</head>
+<body>
+    <h1>Revenda Avenida - Promoção</h1>
+    <form>
+        <p>
+            Modelo do Veículo:
+            <input type="text" id="inModelo" required autofocus>
+        </p>
+
+        <p>
+            Ano da Fabricação:
+            <input type="number" id="inAno" required>
+        </p>
+
+        <p>
+            Preço R$:
+            <input type="number" min="0" step="0.01" id="inPreco" required>
+        </p>
+        <input type="submit" value="Classificar - Calcular Entrada e Parcelas">
+    </form>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+</body>
+</html>
